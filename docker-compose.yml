@@ -13,3 +13,4 @@ services:
       - TZ=Europe/Vienna
     volumes:
       - ./n8n_data:/home/node/.n8n
+      - ./files:/home/node/files
